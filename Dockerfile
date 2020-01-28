@@ -1,5 +1,4 @@
 FROM jupyter/pyspark-notebook
-MAINTAINER Freaxmind
 
 USER root
 RUN conda install -y pymongo nbgrader
